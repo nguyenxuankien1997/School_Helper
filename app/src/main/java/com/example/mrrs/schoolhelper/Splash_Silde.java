@@ -1,12 +1,9 @@
-
 package com.example.mrrs.schoolhelper;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Window;
+import android.support.v7.app.AppCompatActivity;
 
-public class Welcome extends AppCompatActivity {
-
+public class Splash_Silde extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,5 +13,4 @@ public class Welcome extends AppCompatActivity {
         getSupportActionBar().hide();
 
     }
-
 }
